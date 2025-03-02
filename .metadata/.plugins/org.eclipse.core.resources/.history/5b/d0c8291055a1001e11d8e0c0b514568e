@@ -1,0 +1,28 @@
+package seleniumwebdriver3;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Amazonfeatures {
+
+	public static void main(String[] args) throws InterruptedException {
+		System.setProperty("webdriver.chrome.driver","C:\\New folder\\chromedriver-win64\\chromedriver.exe");
+		 ChromeDriver driver = new ChromeDriver();
+		 driver.get("https://www.amazon.in/");
+		 List<WebElement> AllLinks=  driver.findElements(By.tagName("a"));
+		 for(WebElement links : AllLinks);
+		 
+		 {
+			 System.out.println(links);
+		 }
+				 
+		 
+		
+		
+		
+	}
+
+}

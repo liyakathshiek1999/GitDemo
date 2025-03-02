@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;mavenbasic.Hello_mavin&apos; to &apos;Hello_maven&apos;&#x0D;&#x0A;- Original project: &apos;Mahiz&apos;&#x0D;&#x0A;- Original element: &apos;mavenbasic.Hello_mavin&apos;&#x0D;&#x0A;- Renamed element: &apos;mavenbasic.Hello_maven&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Hello_mavin&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;mavenbasic{Hello_mavin.java[Hello_mavin" matchStrategy="1" name="Hello_maven" qualified="false" references="true" similarDeclarations="false" stamp="1704084943993" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,27 @@
+package Practice1;
+
+public class String_HighestletterCount {
+
+	public static void main(String[] args) {
+		String name = "most beautiful name Mahiz";
+		String [] str= name.split(" "); // []---> [most,beautiful,name,mahiz]--->store in brkt
+		String temp ="";
+
+		for(int i=0; i<str.length-1; i++) {
+			
+			if (str[i].length()>str[i].length())
+			{
+			temp=str[i]	;
+			}
+			else
+				temp=str[i+1];
+			}
+		System.out.println(temp);
+		}
+	     
+	
+
+}
+
+
+

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Practice1.Stringprogms&apos; to &apos;Maxvalueprint&apos;&#x0D;&#x0A;- Original project: &apos;project&apos;&#x0D;&#x0A;- Original element: &apos;Practice1.Stringprogms&apos;&#x0D;&#x0A;- Renamed element: &apos;Practice1.Maxvalueprint&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Stringprogms&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;Practice1{Stringprogms.java[Stringprogms" matchStrategy="1" name="Maxvalueprint" qualified="false" references="true" similarDeclarations="false" stamp="1707237505049" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,27 @@
+package seleniumwebdriver3;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.BeforeClass;
+
+public class Findmaximumvalue {
+	WebDriver driver;
+	
+	@BeforeClass
+	public void setup() {
+		System.setProperty("webdriver.chrome.driver","C:\\New folder\\chromedriver-win64\\chromedriver.exe");
+		 ChromeDriver driver = new ChromeDriver();
+		 driver.get("https://www.flipkart.com/");
+		 
+	}
+	int max=0;
+		
+			
+		
+	
+
+	
+	
+	
+
+
