@@ -1,19 +1,13 @@
 package ProductTestCases;
 
 import org.testng.annotations.Test;
-import java.io.File;
 import java.util.Arrays;
 import java.util.List;
-import java.io.IOException;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
 
 import BrowserInitialization.Initialization;
 import ProductCatalogePOM.UnauthenticatedProductssection;
 
 public class productpage extends Initialization {
-
-	private static final String FileUtils = null;
 
 	/*
 	 * @Test public void productsVerificationasUnAuthenticatedUser() {
@@ -35,20 +29,12 @@ public class productpage extends Initialization {
 
 	@Test
 	public void addingProducttoCart() throws InterruptedException {
-		String[] products = { "Half Sleeves Top Schiffli Detailing - Pink", "Long Maxi Tulle Fancy Dress Up Outfits -Pink", "Soft Stretch Jeans" };
-		//String[] products = { "Blue Top", "Men Tshirt" };
+		String[] products = { "Half Sleeves Top Schiffli Detailing - Pink",
+				"Long Maxi Tulle Fancy Dress Up Outfits -Pink", "Soft Stretch Jeans" };
+		// String[] products = { "Blue Top", "Men Tshirt" };
 		List<String> DesiredProducts = Arrays.asList(products);
 		UnauthenticatedProductssection UnauthenticatedProductssection = new UnauthenticatedProductssection(driver);
 		UnauthenticatedProductssection.addProductsToCart(DesiredProducts);
 	}
 
-	
-	public void screenShotCode(String testcaseName)
-	{
-		TakesScreenshot ss=(TakesScreenshot)driver;
-		File Source= ss.getScreenshotAs(OutputType.FILE);
-		File file = new File(System.getProperty("user.dir")+"\\reports"+testcaseName+".png");
-		FileUtils.cop
-		
-	}
 }
